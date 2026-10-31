@@ -1,5 +1,9 @@
+import numpy as np
+
+
 def main():
-    print("Hello from assignment-05!")
+    values = np.array([1, 2, 3])
+    print(values.mean())
 
 
 if __name__ == "__main__":
